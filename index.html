@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Магистрская работа</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Гриусевич П. В.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="./avatar.png" alt="Фотография Гриусевич П. В." class="photo">
+            <p>
+                Гриусевич П.В. в 2016 г. закончила биологический факультет БГУ, специализировалась на кафедре клеточной биологии и                 биоинженерии растений. На данный момент проходит обучение в магистратуре (научный руководитель д.б.н., 
+                доцент В.В. Демидчик). Тема магистерской диссертации «Механизм активации калиевых каналов GORK                 плазматической мембраны клеток корня высших растений под действием активных форм кислорода».
+С 2017 г. работает на кафедре ассистентом, ведет лабораторные занятия по общему курсу «Физиология растений». Область научных интересов: выявление механизмов первичного воздействия активных форм кислорода на функционирование
+катионных каналов клеток корня высших растений. Имеет 21 научную публикацию.
+
+Основные публикации
+
+1. Эпикастастерон активирует кальций-проницаемые катионные каналы и стимулирует рост корневой системы у высших растений / Д.Е. Стрельцова [и др.] // Вестник БГУ. – 2014.
+2. Cation channels are involved in brassinosteroid signalling in higher plants /D. Straltsova [et al.] // Steroids. - 2015. -Р. 98-106.
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="#http://www.bio.bsu.by/fbr/demidchik_ru.html" target="_blank">Демидчик Вадим Викторович </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
